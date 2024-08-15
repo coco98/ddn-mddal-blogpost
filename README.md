@@ -20,7 +20,7 @@ That's a fancy way of saying, if you give Hasura the metadata (description of [r
 
 <img width="549" alt="Screenshot 2024-08-14 at 11 55 39 PM" src="https://github.com/user-attachments/assets/1e91ffb7-a2c6-4ada-898b-7ef1e9ccde9e">
 
-### Developers ❤️ Hasura: Productivity
+## Developers ❤️ Hasura: Productivity
 
 Developers hate tools that slow down their ability to "ship". A simple governance task like documentation (a part of metadata) often gets thrown aside, because it is extra work that doesn't contribute to being productive while building APIs.
 
@@ -30,7 +30,7 @@ Hasura flips this equation by allowing developers to create their APIs directly 
 
 Hasura's tooling helps speed up the creation of metadata and hence the final API - helping developers ship faster. Creating metadata with Hasura is faster than writing code for API controllers that securely map to underlying domain objects or methods. Hasura introspects databases and code and automatically derives the metadata from the underlying domain. This metadata can be conveniently edited and a well documented, standardized, production grade API is instantly available. This powers a world class developer experience for building APIs and best of breed CI/CD practices, resulting in a massive amount of developer time saved.
 
-### Leaders ❤️ Hasura: Standardization & governance
+## Leaders ❤️ Hasura: Standardization & governance
 
 For technology leaders, Hasura provides a guarantee that metadata is always maintained and up to date. A historic first when it comes to building realtime data access layers (data APIs) - because metadata does not have to be maintained out of band.
 
