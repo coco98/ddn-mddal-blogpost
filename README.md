@@ -48,7 +48,7 @@ As an industry, as we start to roll out and embrace AI, it is becoming apparent 
 
 In the age of AI, startups and enterprises alike are accelerating their transition to becoming a data company with business services attached. Being able to monetize their data and being able to provide higher quality services is the fuel for growth.
 
-Quoting from this recent article by Goldman Sachs on the deflation of software:
+Quoting from this recent article by Goldman Sachs on [The Deflation of Software](https://www.goldmansachs.com/what-we-do/goldman-sachs-global-institute/articles/the-deflation-of-software):
 
 > "If data gravity within SaaS applications persists, then SaaS businesses may persist for a long time – even if their products become increasingly "wrapped" with generative interfaces and the businesses look increasingly like data warehouses."
 
