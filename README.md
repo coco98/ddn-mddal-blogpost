@@ -59,7 +59,7 @@ Quoting from this recent article by Goldman Sachs on [The Deflation of Software]
 
 ## Launching Hasura DDN (Hasura v3)
 
-Our next major version release, v3, which we call the Hasura Data Delivery Network, fully embraces these ideas.
+Our next major version release, v3, which we call the Hasura Data Delivery Network, fully embraces these ideas. 
 
 Being metadata-driven has been a key building block of Hasura since its inception, and with DDN we bring it to the forefront!
 
@@ -67,31 +67,57 @@ Hasura DDN helps developers shift their focus from a lower level abstraction of 
 
 Hasura DDN helps teams and businesses govern how their data is used and make decisions about how to invest in their data products.
 
-So let's take a look at what makes Hasura DDN's metadata and Hasura DDN's API engine powerful:
+So let's take a look at what makes Hasura DDN's metadata and Hasura DDN's API engine powerful?
 
-1. Metadata that captures (semantic) relationships
-2. A metadata specification that unifies API metadata with data-catalog metadata
-3. Unified metadata for heterogeneous data workloads SQL, NoSQL, Events
+### Hasura DDN metadata == API schema metadata + Data catalog metadata
+
+Data access layers that are accessed over APIs need straddle 2 worlds at the same time:
+1. a method oriented API world and 
+2. a resource oriented database world.
+
+Hasura DDN has a metadata format is a concise specification that brings both together.
+
+| Requirement | API metadata (OpenAPI, GraphQL) | Data catalog metadata (eg: Iceberg) | Hasura DDN (supergraph) | 
+|--|--|--|--|
+| **Business methods** | ✅ | ❌ | ✅ | 
+| **Relationships between entities** | GraphQL |  ❌ | ✅ |
+| **Table-like resources** | ❌ | ✅ | ✅ | 
+
+- API metadata tends to be highly method oriented because each API endpoint is an independent business method
+- On the other hand, data catalog metadata tend to be highly table oriented because each table has a standardized way to access with a query language like SQL
+
+### Unified metadata for heterogeneous data workloads - SQL, NoSQL, Events
+
+Hasura DDN allows mapping a domain model to an underlying physical model that can come from any type of data system.
+   
    - Diagram:
      - One metadata object
      - Normalized tables in postgres
      - JSON collection in Mongo
-4. Integration with the metadata ecosystem
+    
+### Open metadata specification with a metadata CLI, SDKs & APIs
+
    - Description:
      - The metadata is a versioned specification and has a typed SDK and APIs
      - Hasura can ingest metadata from sources directly - databases, OpenAPI, GraphQL
      - Hasura can ingest metadata from other metadata sources - Atlan, Immuta
    - Graphic: Logos integrating with Hasura
-5. Standardized data access APIs
+
+
+### Standardized data access APIs
    - Show 2 metadata objects that have a relationship
    - Show the standard API that is created by having this relationship
    - Embed a GraphiQL
-6. Out-of-the-box API portal & documentation
+
+### Out-of-the-box API portal & documentation
    - Console
    - Embed some example console screens with arcade.software
-7. Federated collaboration on metadata
+
+
+### Federated collaboration on metadata
    - Show a diagram that each domain team can independently iterate on their subgraphs
-8. Granular data usage analytics (who's using what data how much?)
+
+### Granular data usage analytics (who's using what data how much?)
    - Embed console screens showing model and field analytics using arcade.software
 
 To read more about the technology architecture & the relevant specifications:
