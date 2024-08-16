@@ -86,14 +86,18 @@ Hasura DDN has a metadata format is a concise specification that brings both tog
 - API metadata tends to be highly method oriented because each API endpoint is an independent business method
 - On the other hand, data catalog metadata tend to be highly table oriented because each table has a standardized way to access with a query language like SQL
 
-### Unified metadata for heterogeneous data workloads - SQL, NoSQL, Events
+### Unified metadata for heterogeneous data workloads - SQL, NoSQL, Events, APIs
 
 Hasura DDN allows mapping a domain model to an underlying physical model that can come from any type of data system.
    
-   - Diagram:
-     - One metadata object
-     - Normalized tables in postgres
-     - JSON collection in Mongo
+<img width="400" alt="Screenshot 2024-08-16 at 1 38 25 PM" src="https://github.com/user-attachments/assets/3fc8aeac-c918-43e9-a282-6c371ae5312e">
+<br/>
+
+<img width="400" alt="Screenshot 2024-08-16 at 1 38 35 PM" src="https://github.com/user-attachments/assets/9d4450be-bfa3-40d8-9e6d-1615fceba403">
+<br/>
+
+<img width="400" alt="Screenshot 2024-08-16 at 1 38 30 PM" src="https://github.com/user-attachments/assets/0efc2b8d-aa71-4af4-bdb8-566e35488ee2">
+
     
 ### Open metadata specification with a metadata CLI, SDKs & APIs
 
@@ -102,6 +106,8 @@ Hasura DDN allows mapping a domain model to an underlying physical model that ca
      - Hasura can ingest metadata from sources directly - databases, OpenAPI, GraphQL
      - Hasura can ingest metadata from other metadata sources - Atlan, Immuta
    - Graphic: Logos integrating with Hasura
+
+### Federated management of metadata (multi-repo CI/CD)
 
 
 ### Standardized data access APIs
@@ -112,10 +118,6 @@ Hasura DDN allows mapping a domain model to an underlying physical model that ca
 ### Out-of-the-box API portal & documentation
    - Console
    - Embed some example console screens with arcade.software
-
-
-### Federated collaboration on metadata
-   - Show a diagram that each domain team can independently iterate on their subgraphs
 
 ### Granular data usage analytics (who's using what data how much?)
    - Embed console screens showing model and field analytics using arcade.software
