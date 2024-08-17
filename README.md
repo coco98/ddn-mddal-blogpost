@@ -90,16 +90,10 @@ Hasura DDN has a metadata format is a concise specification that brings both tog
 
 Hasura DDN allows mapping a domain model to an underlying physical model that can come from any type of data system.
    
-<img width="400" alt="Screenshot 2024-08-16 at 1 38 25 PM" src="https://github.com/user-attachments/assets/3fc8aeac-c918-43e9-a282-6c371ae5312e">
-<br/>
+<img width="470" alt="Screenshot 2024-08-16 at 9 44 23 PM" src="https://github.com/user-attachments/assets/ab6980d0-0061-405e-b7d6-9e56e7d90b09">
 
-<img width="400" alt="Screenshot 2024-08-16 at 1 38 35 PM" src="https://github.com/user-attachments/assets/9d4450be-bfa3-40d8-9e6d-1615fceba403">
-<br/>
-
-<img width="400" alt="Screenshot 2024-08-16 at 1 38 30 PM" src="https://github.com/user-attachments/assets/0efc2b8d-aa71-4af4-bdb8-566e35488ee2">
-
-    
-### Open metadata specification with a metadata CLI, SDKs & APIs
+<!--    
+### Granular authorization policies
 
    - Description:
      - The metadata is a versioned specification and has a typed SDK and APIs
@@ -108,16 +102,17 @@ Hasura DDN allows mapping a domain model to an underlying physical model that ca
    - Graphic: Logos integrating with Hasura
 
 ### Federated management of metadata (multi-repo CI/CD)
-
+-->
 
 ### Standardized data access APIs
-   - Show 2 metadata objects that have a relationship
-   - Show the standard API that is created by having this relationship
-   - Embed a GraphiQL
+
+Hasura DDN creates and serves a standardized API based on the metadata provided.
+
+<img width="459" alt="Screenshot 2024-08-16 at 9 45 10 PM" src="https://github.com/user-attachments/assets/1febe0f5-4a82-4a17-a2eb-720305fabf50">
 
 ### Out-of-the-box API portal & documentation
-   - Console
-   - Embed some example console screens with arcade.software
+
+
 
 ### Granular data usage analytics (who's using what data how much?)
    - Embed console screens showing model and field analytics using arcade.software
