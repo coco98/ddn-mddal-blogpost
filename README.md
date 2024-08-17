@@ -69,6 +69,13 @@ Hasura DDN helps teams and businesses govern how their data is used and make dec
 
 So let's take a look at what makes Hasura DDN's metadata and Hasura DDN's API engine powerful?
 
+Contents:
+1. Hasura DDN metadata == API schema metadata + Data catalog metadata
+2. Unified metadata for heterogeneous data workloads - SQL, NoSQL, Events, APIs
+3. Standardized data access APIs
+4. Out-of-the-box API portal & documentation
+5. Granular data usage analytics (who's using what data how much?)
+
 ### Hasura DDN metadata == API schema metadata + Data catalog metadata
 
 Data access layers that are accessed over APIs need straddle 2 worlds at the same time:
@@ -92,18 +99,6 @@ Hasura DDN allows mapping a domain model to an underlying physical model that ca
    
 <img width="470" alt="Screenshot 2024-08-16 at 9 44 23 PM" src="https://github.com/user-attachments/assets/ab6980d0-0061-405e-b7d6-9e56e7d90b09">
 
-<!--    
-### Granular authorization policies
-
-   - Description:
-     - The metadata is a versioned specification and has a typed SDK and APIs
-     - Hasura can ingest metadata from sources directly - databases, OpenAPI, GraphQL
-     - Hasura can ingest metadata from other metadata sources - Atlan, Immuta
-   - Graphic: Logos integrating with Hasura
-
-### Federated management of metadata (multi-repo CI/CD)
--->
-
 ### Standardized data access APIs
 
 Hasura DDN creates and serves a standardized API based on the metadata provided.
@@ -112,10 +107,16 @@ Hasura DDN creates and serves a standardized API based on the metadata provided.
 
 ### Out-of-the-box API portal & documentation
 
-
+```
+<div style="position: relative; padding-bottom: calc(55.43981481481482% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/ZrKrcnSBRZ6jRKtZaoNw?embed&show_copy_link=true" title="Hasura DDN Console" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;color-scheme: light;"></iframe></div>
+```
 
 ### Granular data usage analytics (who's using what data how much?)
-   - Embed console screens showing model and field analytics using arcade.software
+
+```
+<div style="position: relative; padding-bottom: calc(55.43981481481482% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/ZrKrcnSBRZ6jRKtZaoNw?embed&show_copy_link=true" title="Hasura DDN Console" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;color-scheme: light;"></iframe></div>
+```
+
 
 To read more about the technology architecture & the relevant specifications:
 
