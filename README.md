@@ -4,6 +4,9 @@ The Hasura Data Delivery Network is now in GA!
 
 In this post, I'm going to talk a little bit about the rising importance of metadata, learnings about the value of metadata driven from Hasura users and customers and how Hasura DDN uses metadata to make realtime data access easy and governed.
 
+![metadata-secret](https://github.com/user-attachments/assets/0fa175d8-25c8-4112-8a06-4949fa13b313)
+
+
 ## TOC
 
 [Insert TOC here](https://hasura.io)
